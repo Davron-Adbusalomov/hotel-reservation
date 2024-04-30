@@ -1,0 +1,98 @@
+2024-04-30T07:00:21.725+05:00  INFO 20492 --- [main] c.e.h.HotelReservationApplication        : Starting HotelReservationApplication using Java 19.0.1 with PID 20492 (C:\Program Files\learn-spring-framework\hotel-reservation\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\hotel-reservation)
+2024-04-30T07:00:21.840+05:00  INFO 20492 --- [main] c.e.h.HotelReservationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T07:00:23.276+05:00  INFO 20492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T07:00:23.278+05:00  INFO 20492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30T07:00:23.348+05:00  INFO 20492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T07:00:23.534+05:00  INFO 20492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T07:00:23.610+05:00  INFO 20492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T07:00:23.655+05:00  INFO 20492 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T07:00:23.985+05:00  INFO 20492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T07:00:24.215+05:00  INFO 20492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@362a561e
+2024-04-30T07:00:24.217+05:00  INFO 20492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T07:00:24.294+05:00  WARN 20492 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T07:00:25.388+05:00  INFO 20492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T07:00:26.660+05:00  INFO 20492 --- [main] c.e.h.HotelReservationApplication        : Started HotelReservationApplication in 5.498 seconds (process running for 6.327)
+2024-04-30T07:00:48.730+05:00  INFO 20492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T07:52:45.652+05:00  INFO 20492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T07:52:45.724+05:00  INFO 20492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T12:58:12.011+05:00  INFO 5988 --- [main] c.e.h.HotelReservationApplication        : Starting HotelReservationApplication using Java 19.0.1 with PID 5988 (C:\Program Files\learn-spring-framework\hotel-reservation\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\hotel-reservation)
+2024-04-30T12:58:12.015+05:00  INFO 5988 --- [main] c.e.h.HotelReservationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T12:58:13.524+05:00  INFO 5988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T12:58:13.524+05:00  INFO 5988 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30T12:58:13.588+05:00  INFO 5988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T12:58:13.789+05:00  INFO 5988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T12:58:13.881+05:00  INFO 5988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T12:58:13.921+05:00  INFO 5988 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T12:58:14.338+05:00  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T12:58:14.621+05:00  INFO 5988 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d1bf7bf
+2024-04-30T12:58:14.624+05:00  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T12:58:14.713+05:00  WARN 5988 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T12:58:16.223+05:00  INFO 5988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T12:58:23.718+05:00  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T12:58:23.723+05:00  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T12:58:23.759+05:00 ERROR 5988 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-30T12:58:39.229+05:00  INFO 2264 --- [main] c.e.h.HotelReservationApplication        : Starting HotelReservationApplication using Java 19.0.1 with PID 2264 (C:\Program Files\learn-spring-framework\hotel-reservation\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\hotel-reservation)
+2024-04-30T12:58:39.232+05:00  INFO 2264 --- [main] c.e.h.HotelReservationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T12:58:40.727+05:00  INFO 2264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T12:58:40.727+05:00  INFO 2264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30T12:58:40.792+05:00  INFO 2264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T12:58:40.956+05:00  INFO 2264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T12:58:41.038+05:00  INFO 2264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T12:58:41.085+05:00  INFO 2264 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T12:58:41.448+05:00  INFO 2264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T12:58:41.765+05:00  INFO 2264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d1bf7bf
+2024-04-30T12:58:41.767+05:00  INFO 2264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T12:58:41.838+05:00  WARN 2264 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T12:58:43.072+05:00  INFO 2264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T12:58:44.460+05:00  INFO 2264 --- [main] c.e.h.HotelReservationApplication        : Started HotelReservationApplication in 5.744 seconds (process running for 6.671)
+2024-04-30T12:58:49.742+05:00  INFO 2264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T13:00:42.140+05:00  INFO 2264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T13:00:42.156+05:00  INFO 2264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T17:43:24.810+05:00  INFO 23128 --- [main] c.e.h.HotelReservationApplication        : Starting HotelReservationApplication using Java 19.0.1 with PID 23128 (C:\Program Files\learn-spring-framework\hotel-reservation\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\hotel-reservation)
+2024-04-30T17:43:24.813+05:00  INFO 23128 --- [main] c.e.h.HotelReservationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T17:43:26.481+05:00  INFO 23128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T17:43:26.481+05:00  INFO 23128 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30T17:43:26.594+05:00  INFO 23128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T17:43:26.934+05:00  INFO 23128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T17:43:27.049+05:00  INFO 23128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T17:43:27.093+05:00  INFO 23128 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T17:43:27.477+05:00  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T17:43:27.769+05:00  INFO 23128 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67e77f52
+2024-04-30T17:43:27.770+05:00  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T17:43:27.837+05:00  WARN 23128 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T17:43:28.808+05:00  INFO 23128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T17:43:30.042+05:00  INFO 23128 --- [main] c.e.h.HotelReservationApplication        : Started HotelReservationApplication in 5.735 seconds (process running for 6.707)
+2024-04-30T17:43:33.878+05:00  INFO 23128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T17:57:20.059+05:00  INFO 23128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T17:57:20.106+05:00  INFO 23128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T19:08:38.818+05:00  INFO 2736 --- [main] c.e.h.HotelReservationApplication        : Starting HotelReservationApplication using Java 19.0.1 with PID 2736 (C:\Program Files\learn-spring-framework\hotel-reservation\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\hotel-reservation)
+2024-04-30T19:08:38.822+05:00  INFO 2736 --- [main] c.e.h.HotelReservationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T19:08:40.984+05:00  INFO 2736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T19:08:40.985+05:00  INFO 2736 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30T19:08:41.057+05:00  INFO 2736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T19:08:41.226+05:00  INFO 2736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T19:08:41.319+05:00  INFO 2736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30T19:08:41.392+05:00  INFO 2736 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-30T19:08:41.735+05:00  INFO 2736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T19:08:41.994+05:00  INFO 2736 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1412682c
+2024-04-30T19:08:41.996+05:00  INFO 2736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T19:08:42.065+05:00  WARN 2736 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-30T19:08:43.612+05:00  INFO 2736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30T19:08:45.525+05:00  INFO 2736 --- [main] c.e.h.HotelReservationApplication        : Started HotelReservationApplication in 7.479 seconds (process running for 8.698)
+2024-04-30T19:10:04.637+05:00  INFO 2736 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T20:58:55.680+05:00  WARN 2736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m12s729ms125µs300ns).
+2024-04-30T20:59:23.935+05:00  INFO 2736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T20:59:23.998+05:00  INFO 2736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
